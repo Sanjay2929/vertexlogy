@@ -101,6 +101,28 @@
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
+@media (max-width: 1400px) {
+  :root {
+    --fs-3xl: 136px;
+    --fs-2xl: 123px;
+    --fs-xl: 65px;
+    --fs-lg: 45px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-xsm: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-3xl: 136px;
+    --fs-2xl: 123px;
+    --fs-xl: 65px;
+    --fs-lg: 45px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-xsm: 14px;
+  }
+}
 @media (max-width: 992px) {
   :root {
     --fs-3xl: 136px;
@@ -149,6 +171,18 @@ body {
   line-height: 19px;
   border: 2px solid transparent;
   transition: 0.4s linear;
+}
+.us_back::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  filter: blur(13.5px);
+  background: linear-gradient(95.24deg, #ff5001 6.18%, #dd4500 97.9%), #d9d9d9;
+  height: 55px;
+  width: 150px;
+  left: 0;
+  bottom: -16px;
+  border-radius: 31px;
 }
 .us_btn:hover {
   background: transparent;
