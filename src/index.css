@@ -106,7 +106,7 @@
     --fs-3xl: 136px;
     --fs-2xl: 123px;
     --fs-xl: 65px;
-    --fs-lg: 40px;
+    --fs-lg: 45px;
     --fs-md: 20px;
     --fs-sm: 16px;
     --fs-xsm: 14px;
@@ -117,7 +117,7 @@
     --fs-3xl: 136px;
     --fs-2xl: 123px;
     --fs-xl: 65px;
-    --fs-lg: 40px;
+    --fs-lg: 45px;
     --fs-md: 20px;
     --fs-sm: 16px;
     --fs-xsm: 14px;
@@ -180,7 +180,8 @@ body {
   background: linear-gradient(95.24deg, #ff5001 6.18%, #dd4500 97.9%), #d9d9d9;
   height: 55px;
   width: 150px;
-  left: 0;bottom: -16px;
+  left: 0;
+  bottom: -16px;
   border-radius: 31px;
 }
 .us_btn:hover {
