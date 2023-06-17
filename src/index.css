@@ -49,6 +49,7 @@
   --clr-orange: #ff6500;
   --clr-white: #ffffff;
   --clr-black_07: #070707;
+  --clr-black_e1: #1e1e1e;
 }
 .fw_400 {
   font-weight: 400;
@@ -74,6 +75,9 @@
 }
 .clr_black_07 {
   color: var(--clr-black_07);
+}
+.bg_black_e1 {
+  background-color: var(--clr-black_e1);
 }
 /* font_size */
 .fs_3xl {
@@ -151,17 +155,17 @@ body {
   border: 2px solid #ff6500;
   color: var(--clr-orange);
 }
-.section_2_side_animation{
+.section_2_side_animation {
   animation: side_ani 2s infinite linear;
 }
 @keyframes side_ani {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(10deg);
   }
-  100%{
+  100% {
     transform: rotate(0deg);
   }
 }
