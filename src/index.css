@@ -9,15 +9,32 @@
   scroll-behavior: smooth !important;
 }
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy bold";
   src: url(../src/assets/fonts/Gilroy-Bold.ttf);
-  src: url(../src/assets/fonts/Gilroy-Heavy.ttf);
-  src: url(../src/assets/fonts/Gilroy-Light.ttf);
-  src: url(../src/assets/fonts/Gilroy-Medium.ttf);
-  /* src: url(../src/assets/fonts/Gilroy-Regular.ttf); */
 }
-.ff_roy {
-  font-family: "Gilroy";
+@font-face {
+  font-family: "Gilroy heavy";
+  src: url(../src/assets/fonts/Gilroy-Heavy.ttf);
+}
+@font-face {
+  font-family: "Gilroy light";
+  src: url(../src/assets/fonts/Gilroy-Light.ttf);
+}
+@font-face {
+  font-family: "Gilroy med";
+  src: url(../src/assets/fonts/Gilroy-Medium.ttf);
+}
+.ff_medium {
+  font-family: "Gilroy med";
+}
+.ff_light {
+  font-family: "Gilroy light";
+}
+.ff_heavy {
+  font-family: "Gilroy heavy";
+}
+.ff_bold {
+  font-family: "Gilroy bold";
 }
 :root {
   --fs-3xl: 136px;
