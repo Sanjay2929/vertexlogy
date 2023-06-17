@@ -14,7 +14,7 @@
   src: url(../src/assets/fonts/Gilroy-Heavy.ttf);
   src: url(../src/assets/fonts/Gilroy-Light.ttf);
   src: url(../src/assets/fonts/Gilroy-Medium.ttf);
-  src: url(../src/assets/fonts/Gilroy-Regular.ttf);
+  /* src: url(../src/assets/fonts/Gilroy-Regular.ttf); */
 }
 .ff_roy {
   font-family: "Gilroy";
