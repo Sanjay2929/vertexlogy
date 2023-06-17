@@ -4,7 +4,7 @@ import side_img from "../assets/img/svg/section_2_side_img.svg";
 import { OrangeBtn } from "./OrangeBtn";
 export const Nisi = () => {
   return (
-    <div className="nisi_bg py-5 position-relative">
+    <div className="nisi_bg py-md-5 pt-5 position-relative">
       <span className=" position-absolute end-0 top-0 me-5 section_2_side_animation">
         <img src={side_img} alt="side_img" className="w-100" />
       </span>
