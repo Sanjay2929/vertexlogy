@@ -101,6 +101,28 @@
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
+@media (max-width: 1400px) {
+  :root {
+    --fs-3xl: 136px;
+    --fs-2xl: 123px;
+    --fs-xl: 65px;
+    --fs-lg: 40px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-xsm: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-3xl: 136px;
+    --fs-2xl: 123px;
+    --fs-xl: 65px;
+    --fs-lg: 40px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-xsm: 14px;
+  }
+}
 @media (max-width: 992px) {
   :root {
     --fs-3xl: 136px;
