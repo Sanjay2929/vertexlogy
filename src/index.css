@@ -138,7 +138,7 @@
   :root {
     --fs-3xl: 136px;
     --fs-2xl: 123px;
-    --fs-xl: 65px;
+    --fs-xl: 40px;
     --fs-lg: 30px;
     --fs-md: 20px;
     --fs-sm: 16px;
@@ -149,7 +149,7 @@
   :root {
     --fs-3xl: 136px;
     --fs-2xl: 123px;
-    --fs-xl: 65px;
+    --fs-xl: 25px;
     --fs-lg: 24px;
     --fs-md: 20px;
     --fs-sm: 16px;
@@ -202,4 +202,34 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+/* slider */
+.pointer {
+  cursor: pointer;
+}
+/* .regluar{
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* .regular {
+  display: flex;
+  flex-wrap: wrap;
+}
+.slick-slider .slick-list {
+  overflow-x: visible !important;
+} */
+.portfolios .slick-list {
+  overflow: visible;
+  position: relative;
+}
+
+.portfolios .slick-list::after {
+  content: " ";
+  position: absolute;
+  top: -5px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: white;
+  background-image: url(./assets/img/webp/whitelayer.webp);
 }
