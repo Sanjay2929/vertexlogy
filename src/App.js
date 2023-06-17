@@ -1,13 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import NavigationBar from "./components/NavigationBar";
 import { Nisi } from "./components/Nisi";
+import HeroSec from "./components/HeroSec";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
-      <NavigationBar />
-      <Nisi/>
+      <HeroSec />
+      <Nisi />
+      <Contact />
     </>
   );
 }

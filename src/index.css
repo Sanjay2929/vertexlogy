@@ -110,8 +110,8 @@
 }
 @media (max-width: 768px) {
   :root {
-    --fs-3xl: 136px;
-    --fs-2xl: 123px;
+    --fs-3xl: 70px;
+    --fs-2xl: 65px;
     --fs-xl: 65px;
     --fs-lg: 30px;
     --fs-md: 20px;
@@ -121,8 +121,8 @@
 }
 @media (max-width: 576px) {
   :root {
-    --fs-3xl: 136px;
-    --fs-2xl: 123px;
+    --fs-3xl: 45px;
+    --fs-2xl: 43px;
     --fs-xl: 65px;
     --fs-lg: 24px;
     --fs-md: 20px;
