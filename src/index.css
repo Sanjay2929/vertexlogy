@@ -50,6 +50,7 @@
   --clr-white: #ffffff;
   --clr-black_07: #070707;
   --clr-black_e1: #1e1e1e;
+  --clr-offWhiteE6:#E6E6E6;
 }
 .fw_400 {
   font-weight: 400;
@@ -116,7 +117,7 @@
   :root {
     --fs-3xl: 136px;
     --fs-2xl: 123px;
-    --fs-xl: 65px;
+    --fs-xl: 50px;
     --fs-lg: 45px;
     --fs-md: 20px;
     --fs-sm: 16px;
@@ -127,7 +128,7 @@
   :root {
     --fs-3xl: 136px;
     --fs-2xl: 123px;
-    --fs-xl: 65px;
+    --fs-xl: 40px;
     --fs-lg: 40px;
     --fs-md: 20px;
     --fs-sm: 16px;
@@ -138,7 +139,7 @@
   :root {
     --fs-3xl: 70px;
     --fs-2xl: 65px;
-    --fs-xl: 65px;
+    --fs-xl: 35px;
     --fs-lg: 30px;
     --fs-md: 20px;
     --fs-sm: 16px;
@@ -149,7 +150,7 @@
   :root {
     --fs-3xl: 45px;
     --fs-2xl: 43px;
-    --fs-xl: 65px;
+    --fs-xl: 30px;
     --fs-lg: 24px;
     --fs-md: 20px;
     --fs-sm: 16px;

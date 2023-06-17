@@ -15,7 +15,7 @@ const NavigationBar = () => {
   }
   return (
     <>
-      <nav className="py-4">
+      <nav className="py-4 position-relative z-3">
         <Container className="d-flex justify-content-between align-items-center">
           <img className="z_51 siteLogo" src={pagelogo} alt="logo" />
           <ul
