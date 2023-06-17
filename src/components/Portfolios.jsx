@@ -17,8 +17,10 @@ export const Portfolios = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: 60,
           infinite: true,
           dots: false,
         },
@@ -26,14 +28,25 @@ export const Portfolios = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 576,
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1.5,
+          centerMode: true,
+          centerPadding: 60,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 450,
         settings: {
           slidesToShow: 1,
+          centerMode: false,
+          //   centerPadding: 60,
           slidesToScroll: 1,
         },
       },
