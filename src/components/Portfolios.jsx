@@ -54,8 +54,8 @@ export const Portfolios = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-xl-5 pb-5">
-      <Container>
+    <div className="py-xl-5 pb-5 position-relative">
+      <Container className="pb-lg-5 pb-4">
         <div className=" d-flex align-items-center justify-content-between py-xl-5 pb-5">
           <p className=" ff_heavy fw_900 fs_xl text-uppercase mb-0">
             Our Portfolios

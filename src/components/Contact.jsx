@@ -6,7 +6,7 @@ import { OrangeBtn } from "./OrangeBtn";
 import headphone from '../assets/img/gif/headphone.gif'
 const Contact = () => {
   return (
-    <div>
+    <div className=" position-relative">
       <section className="bg_black_07 position-relative cornerDesign">
         <div className="maxW1920 mx-auto position-relative px-2 z-1">
           <Row className=" align-items-center">
