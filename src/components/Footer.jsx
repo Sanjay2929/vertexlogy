@@ -61,7 +61,7 @@ export const Footer = () => {
                   cursus.
                 </p>
                 <div className="input_box position-relative">
-                  <span className=" position-absolute top-50 translate-middle-y ms-3">
+                  <span className=" position-absolute top-50 translate-middle-y ms-4">
                     <svg
                       width="15"
                       height="13"
@@ -77,7 +77,7 @@ export const Footer = () => {
                   </span>
                   <input
                     type="text"
-                    className="input_footer w-100 rounded-pill py-4 px-5 clr_placeholder"
+                    className="input_footer w-100 rounded-pill py-4 ps-5 pe-4 clr_placeholder"
                     placeholder="Enter Email Address"
                   />
                   <span className=" position-absolute end-0 top-0 mt-2 me-2">
