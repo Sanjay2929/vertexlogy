@@ -31,6 +31,29 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
+        <div className="d-flex justify-content-center socialLinks position-fixed  top-50 gap-5 z_51">
+          <a
+            className="ff_light fw_400 fs_md clr_black_07 "
+            style={{ letterSpacing: "13%" }}
+            href="#"
+          >
+            Behance
+          </a>
+          <a
+            className="ff_light fw_400 fs_md clr_black_07 "
+            style={{ letterSpacing: "13%" }}
+            href="#"
+          >
+            Youtube
+          </a>
+          <a
+            className="ff_light fw_400 fs_md clr_black_07 "
+            style={{ letterSpacing: "13%" }}
+            href="#"
+          >
+            LinkedIn
+          </a>
+        </div>
       </section>
       <section className="bg_offWhiteE6 position-relative cornerDesign2">
         <div className="maxW1920 mx-auto position-relative px-2 z-1">
