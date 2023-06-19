@@ -10,8 +10,10 @@ const Contact = () => {
       <section className="bg_black_07 position-relative cornerDesign">
         <div className="maxW1920 mx-auto position-relative px-2 z-1">
           <Row className=" align-items-center">
-            <Col md={6} xs={12} className="px-0">
-              <img className="w-100" src={redimg} alt="img" />
+            <Col md={6} xs={12} className="px-0 hoverimg">
+              <div className="shinehover">
+                <img className="w-100" src={redimg} alt="img" />
+              </div>
             </Col>
             <Col md={6} xs={12} className="ps-lg-5 py-md-4 py-5  py-md-0">
               <div className="ps-xxl-5 ms-xxl-5 pe-2 maxW_md558">
@@ -30,7 +32,7 @@ const Contact = () => {
           </Row>
         </div>
       </section>
-      <section className="bg_offWhiteE6 position-relative">
+      <section className="bg_offWhiteE6 position-relative cornerDesign2">
         <div className="maxW1920 mx-auto position-relative px-2 z-1">
           <Row className=" align-items-center flex-wrap-reverse">
             <Col
@@ -52,17 +54,21 @@ const Contact = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} xs={12} className="px-0">
-              <img className="w-100" src={headphone} alt="img" />
+            <Col md={6} xs={12} className="px-0 hoverimg">
+              <div className="shinehover">
+                <img className="w-100" src={headphone} alt="img" />
+              </div>
             </Col>
           </Row>
         </div>
       </section>
-      <section className="bg_black_07 position-relative">
+      <section className="bg_black_07 position-relative cornerDesign">
         <div className="maxW1920 px-2 mx-auto position-relative z-1">
           <Row className=" align-items-center">
-            <Col md={6} xs={12} className="px-0">
-              <img className="w-100" src={manImg} alt="img" />
+            <Col md={6} xs={12} className="px-0 hoverimg">
+              <div className="shinehover">
+                <img className="w-100" src={manImg} alt="img" />
+              </div>
             </Col>
             <Col md={6} xs={12} className="ps-lg-5 py-md-4 py-5  py-md-0">
               <div className="ps-xxl-5 ms-xxl-5 pe-2 maxW_md558">
