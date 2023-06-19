@@ -13,14 +13,14 @@ import bottom_design from "../assets/img/svg/footer_bottom.svg";
 import { OrangeBtn } from "./OrangeBtn";
 export const Footer = () => {
   return (
-    <div className=" position-relative">
+    <div className=" position-relative pt-lg-5">
       <span className=" position-absolute end-0 me-5 bottom-0 section_2_side_animation mb-5 pb-4">
         <img src={bottom_design} alt="bottom_design" className="w-100" />
       </span>
       <span className=" position-absolute section_2_side_animation start-0 ms-5 d-none d-sm-block v top-0 mt-5">
         <img src={bottom_design} alt="bottom_design" className="w-100" />
       </span>
-      <Container className=" position-relative">
+      <Container className=" position-relative pt-sm-5 padding_footer_cus">
         <span className=" position-absolute footer_back_1 section_2_side_animation">
           <img src={footer_back} alt="footer_back" className="w-100" />
         </span>
@@ -38,7 +38,7 @@ export const Footer = () => {
                   <span className=" d-lg-block">Utn vulputate</span> rutrum
                   bibend puru.
                 </p>
-                <p className=" ff_medium opacity-75">
+                <p className=" ff_medium opacity-75 clr_black_07 fs_sm pb-4">
                   <span className=" d--lg-block">
                     Faucibus pulvinar enim in sagittis. Aliquam libero dolor
                     iaculis in aliquam. Cursus nibh
