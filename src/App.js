@@ -7,6 +7,7 @@ import NavigationBar from "./components/NavigationBar";
 import { Nisi } from "./components/Nisi";
 import { Portfolios } from "./components/Portfolios";
 import HeroSec from "./components/HeroSec";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Nisi />
       <Portfolios />
       <Contact />
+      <Footer />
     </div>
   );
 }
