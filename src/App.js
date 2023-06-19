@@ -7,15 +7,19 @@ import NavigationBar from "./components/NavigationBar";
 import { Nisi } from "./components/Nisi";
 import { Portfolios } from "./components/Portfolios";
 import HeroSec from "./components/HeroSec";
+import Preloader from "./components/Preloader";
+import TopButton from "./components/TopButton";
 import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <div className=" overflow-hidden">
+      <Preloader />
       <HeroSec />
       <Nisi />
       <Portfolios />
       <Contact />
+      <TopButton />
       <Footer />
     </div>
   );
