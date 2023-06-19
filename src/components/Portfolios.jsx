@@ -32,7 +32,7 @@ export const Portfolios = () => {
           slidesToScroll: 1,
         },
       },
-      { 
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1.5,
@@ -42,10 +42,17 @@ export const Portfolios = () => {
         },
       },
       {
+        breakpoint: 576,
+        settings: {
+          dots: true,
+        },
+      },
+      {
         breakpoint: 450,
         settings: {
           slidesToShow: 1,
           centerMode: false,
+          dots: true,
           //   centerPadding: 60,
           slidesToScroll: 1,
         },
@@ -56,11 +63,11 @@ export const Portfolios = () => {
   return (
     <div className="py-xl-5 pb-5 position-relative">
       <Container className="pb-lg-5 pb-4">
-        <div className=" d-flex align-items-center justify-content-between py-xl-5 pb-5">
+        <div className=" d-flex align-items-center justify-content-between py-xl-5 pb-md-5 pb-3">
           <p className=" ff_heavy fw_900 fs_xl text-uppercase mb-0">
             Our Portfolios
           </p>
-          <div className=" d-flex align-items-center">
+          <div className=" d-sm-flex d-none align-items-center">
             <span>
               <svg
                 width="54"
