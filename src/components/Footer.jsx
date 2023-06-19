@@ -47,9 +47,23 @@ export const Footer = () => {
                   cursus.
                 </p>
                 <div className="input_box position-relative">
+                  <span className=" position-absolute top-50 translate-middle-y ms-3">
+                    <svg
+                      width="15"
+                      height="13"
+                      viewBox="0 0 15 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.67895 0.574219C2.05029 0.574219 1.44738 0.823952 1.00286 1.26848C0.558327 1.71301 0.308594 2.31592 0.308594 2.94458V3.1828L7.41966 7.01211L14.5307 3.18398V2.94458C14.5307 2.31592 14.281 1.71301 13.8365 1.26848C13.3919 0.823952 12.789 0.574219 12.1604 0.574219H2.67895ZM14.5307 4.52916L7.70055 8.20677C7.61422 8.25324 7.51771 8.27757 7.41966 8.27757C7.32162 8.27757 7.22511 8.25324 7.13878 8.20677L0.308594 4.52916V10.0556C0.308594 10.6843 0.558327 11.2872 1.00286 11.7317C1.44738 12.1763 2.05029 12.426 2.67895 12.426H12.1604C12.789 12.426 13.3919 12.1763 13.8365 11.7317C14.281 11.2872 14.5307 10.6843 14.5307 10.0556V4.52916Z"
+                        fill="#B2B2B2"
+                      />
+                    </svg>
+                  </span>
                   <input
                     type="text"
-                    className="input_footer w-100 rounded-pill py-4 px-4 clr_placeholder"
+                    className="input_footer w-100 rounded-pill py-4 px-5 clr_placeholder"
                     placeholder="Enter Email Address"
                   />
                   <span className=" position-absolute end-0 top-0 mt-2 me-2">
@@ -65,22 +79,46 @@ export const Footer = () => {
             >
               <div className=" d-flex align-items-end justify-content-center flex-lg-column">
                 <span>
-                  <img src={insta_1} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={insta_1}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img src={be_2} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={be_2}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img src={you_3} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={you_3}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img src={fb_4} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={fb_4}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img src={twe_5} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={twe_5}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img src={in_6} alt="insta_1" className="w-100 pointer icon_hover" />
+                  <img
+                    src={in_6}
+                    alt="insta_1"
+                    className="w-100 pointer icon_hover"
+                  />
                 </span>
               </div>
             </Col>
