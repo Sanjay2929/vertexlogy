@@ -17,7 +17,7 @@ const Contact = () => {
             </Col>
             <Col md={6} xs={12} className="ps-lg-5 py-md-4 py-5  py-md-0">
               <div className="ps-xxl-5 ms-xxl-5 pe-2 maxW_md558">
-                <h2 className="fw_900 fs_xl ff_heavy text-uppercase text-white mb-1 text-md-start text-center">
+                <h2 className="fw_900 fs_xl ff_heavy text-uppercase text-white mb-1 text-md-start text-center sec3Text_shadow">
                   Sed volutpat erat dignissim iaculis aenean
                 </h2>
                 <p className=" text-white ff_medium fw_400 pe-md-3 fs_sm lh_lg_170 lh_140 pb-xl-5 px-sm-4 px-md-0 pb-2 mb-2 text-md-start text-center">
@@ -31,29 +31,6 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
-        <div className="d-flex justify-content-center socialLinks position-fixed  top-50 gap-5 z_51">
-          <a
-            className="ff_light fw_400 fs_md clr_black_07 "
-            style={{ letterSpacing: "13%" }}
-            href="#"
-          >
-            Behance
-          </a>
-          <a
-            className="ff_light fw_400 fs_md clr_black_07 "
-            style={{ letterSpacing: "13%" }}
-            href="#"
-          >
-            Youtube
-          </a>
-          <a
-            className="ff_light fw_400 fs_md clr_black_07 "
-            style={{ letterSpacing: "13%" }}
-            href="#"
-          >
-            LinkedIn
-          </a>
-        </div>
       </section>
       <section className="bg_offWhiteE6 position-relative cornerDesign2">
         <div className="maxW1920 mx-auto position-relative px-2 z-1">
@@ -64,7 +41,7 @@ const Contact = () => {
               className="pe-lg-5 py-md-4 py-5  ps-0 py-md-0 d-flex justify-content-end"
             >
               <div className="pe-xxl-5 me-xxl-5 ps-2 maxW_md558">
-                <h2 className="fw_900 fs_xl ff_heavy text-uppercase clr_black_07 mb-1 text-md-start text-center">
+                <h2 className="fw_900 fs_xl ff_heavy text-uppercase clr_black_07 mb-1 text-md-start text-center sec3Text_shadow">
                   At tempor, amet viverra eu Quisque
                 </h2>
                 <p className="clr_black_07 ff_medium fw_400 pe-md-3 fs_sm lh_lg_170 lh_140 pb-xl-4 px-sm-4 px-md-0 pb-2 mb-0 text-md-start text-center">
@@ -95,10 +72,10 @@ const Contact = () => {
             </Col>
             <Col md={6} xs={12} className="ps-lg-5 py-md-4 py-5  py-md-0">
               <div className="ps-xxl-5 ms-xxl-5 pe-2 maxW_md558">
-                <h4 className="text-white ff_medium fw_400 fs_sm text-md-start text-center">
+                <h4 className="text-white ff_medium fw_400 fs_sm text-md-start text-center sec3Text_shadow">
                   About me
                 </h4>
-                <h2 className="fw_900 fs_xl ff_heavy text-uppercase text-white mb-1 text-md-start text-center">
+                <h2 className="fw_900 fs_xl ff_heavy text-uppercase text-white mb-1 text-md-start text-center sec3Text_shadow">
                   John Smith
                 </h2>
                 <p className=" text-white ff_medium fw_400 pe-md-2 fs_sm lh_lg_170 lh_140 pb-xl-5 px-sm-4 px-md-0 pb-2 mb-2 text-md-start text-center">

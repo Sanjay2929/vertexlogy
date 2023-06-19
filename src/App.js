@@ -9,6 +9,7 @@ import { Portfolios } from "./components/Portfolios";
 import HeroSec from "./components/HeroSec";
 import Preloader from "./components/Preloader";
 import TopButton from "./components/TopButton";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Portfolios />
       <Contact />
       <TopButton />
+      <Footer />
     </div>
   );
 }
