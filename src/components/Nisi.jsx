@@ -12,13 +12,25 @@ export const Nisi = () => {
         <Container className="py-lg-5">
           <Row className="py-5">
             <Col lg={8} xs={12}>
-              <p className="mb-0 ff_roy_bold text-uppercase fw_900 fs_lg clr_black_07 nisi_text">
-                <span className=" d-xl-block">Nisi et diam euismod </span>
+              <p
+                className="mb-0 ff_roy_bold text-uppercase fw_900 fs_lg clr_black_07 nisi_text"
+                data-aos="fade-right"
+              >
+                <span
+                  className=" d-xl-block"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                >
+                  Nisi et diam euismod{" "}
+                </span>
                 suspendisse tristique quis
               </p>
             </Col>
             <Col lg={4} xs={12} className=" pt-lg-0 pt-4">
-              <p className=" fw_400 clr_black_07 ff_medium opacity-75 fs_sm">
+              <p
+                className=" fw_400 clr_black_07 ff_medium opacity-75 fs_sm"
+                data-aos="fade-left"
+              >
                 Tincidunt phasellus id imperdiet lorem blandit. Congue donec
                 scelerisque congue pellentesque.
               </p>

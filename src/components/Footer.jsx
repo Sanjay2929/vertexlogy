@@ -32,13 +32,27 @@ export const Footer = () => {
             <Col lg={7} xs={12}>
               <div>
                 <span>
-                  <img className="w-25" src={logo} alt="logo" />
+                  <img className="w-25 pointer" src={logo} alt="logo" />
                 </span>
-                <p className=" ff_heavy mb-0 fw_900 utn_shadow fs_xl clr_black_07 lh-sm text-uppercase mt-3">
-                  <span className=" d-lg-block">Utn vulputate</span> rutrum
-                  bibend puru.
+                <p
+                  className=" ff_heavy mb-0 fw_900 utn_shadow fs_xl clr_black_07 lh-sm text-uppercase mt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                >
+                  <span
+                    className=" d-lg-block"
+                    data-aos="fade-right"
+                    data-aos-delay="900"
+                  >
+                    Utn vulputate
+                  </span>
+                  rutrum bibend puru.
                 </p>
-                <p className=" ff_medium opacity-75 clr_black_07 fs_sm pb-4">
+                <p
+                  className=" ff_medium opacity-75 clr_black_07 fs_sm pb-4"
+                  data-aos="fade-left"
+                  data-aos-delay="1000"
+                >
                   <span className=" d--lg-block">
                     Faucibus pulvinar enim in sagittis. Aliquam libero dolor
                     iaculis in aliquam. Cursus nibh
@@ -78,7 +92,11 @@ export const Footer = () => {
               className=" d-flex align-items-center justify-content-lg-end"
             >
               <div className=" d-flex align-items-end justify-content-center flex-lg-column">
-                <span>
+                <span
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                  data-aos-delay="300"
+                >
                   <img
                     src={insta_1}
                     alt="insta_1"
@@ -86,34 +104,50 @@ export const Footer = () => {
                   />
                 </span>
                 <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
-                  <img
-                    src={be_2}
-                    alt="insta_1"
-                    className="w-100 pointer icon_hover"
-                  />
+                  <img src={be_2} alt="insta_1" className="w-100 pointer icon_hover" />
                 </span>
-                <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
+                <span
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                  data-aos-delay="900"
+                  className="mt-lg-3 mt-4 ms-lg-0 ms-3"
+                >
                   <img
                     src={you_3}
                     alt="insta_1"
                     className="w-100 pointer icon_hover"
                   />
                 </span>
-                <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
+                <span
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                  data-aos-delay="1200"
+                  className="mt-lg-3 mt-4 ms-lg-0 ms-3"
+                >
                   <img
                     src={fb_4}
                     alt="insta_1"
                     className="w-100 pointer icon_hover"
                   />
                 </span>
-                <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
+                <span
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                  data-aos-delay="1600"
+                  className="mt-lg-3 mt-4 ms-lg-0 ms-3"
+                >
                   <img
                     src={twe_5}
                     alt="insta_1"
                     className="w-100 pointer icon_hover"
                   />
                 </span>
-                <span className="mt-lg-3 mt-4 ms-lg-0 ms-3">
+                <span
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                  data-aos-delay="2100"
+                  className="mt-lg-3 mt-4 ms-lg-0 ms-3"
+                >
                   <img
                     src={in_6}
                     alt="insta_1"

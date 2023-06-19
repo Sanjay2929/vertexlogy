@@ -109,8 +109,8 @@
 }
 @media (max-width: 1400px) {
   :root {
-    --fs-3xl: 136px;
-    --fs-2xl: 123px;
+    --fs-3xl: 115px;
+    --fs-2xl: 110px;
     --fs-xl: 60px;
     --fs-lg: 45px;
     --fs-md: 20px;
@@ -120,8 +120,8 @@
 }
 @media (max-width: 1200px) {
   :root {
-    --fs-3xl: 136px;
-    --fs-2xl: 123px;
+    --fs-3xl: 90px;
+    --fs-2xl: 95px;
     --fs-xl: 50px;
     --fs-lg: 45px;
     --fs-md: 20px;
@@ -131,8 +131,8 @@
 }
 @media (max-width: 992px) {
   :root {
-    --fs-3xl: 136px;
-    --fs-2xl: 123px;
+    --fs-3xl: 72px;
+    --fs-2xl: 69px;
     --fs-xl: 40px;
     --fs-lg: 40px;
     --fs-md: 20px;
@@ -305,7 +305,7 @@ body {
     right: 0;
   }
   .icon_hover:hover {
-    transform: translatey(40%);
+    transform: translateY(40%);
   }
   .padding_footer_cus {
     padding-bottom: 70px;
