@@ -24,16 +24,16 @@ const NavigationBar = () => {
             }`}
           >
             <li>
-              <a href="#home">Home</a>
+              <a className="underline position-relative" href="#home">Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a className="underline position-relative" href="#about">About</a>
             </li>
             <li>
-              <a href="#product">Products</a>
+              <a className="underline position-relative" href="#product">Products</a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a className="underline position-relative" href="#contact">Contact Us</a>
             </li>
           </ul>
           <div onClick={showUl} className="d-sm-none d-block z_50">
