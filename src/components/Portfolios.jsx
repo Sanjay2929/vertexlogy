@@ -64,11 +64,14 @@ export const Portfolios = () => {
     <div className="py-xl-5 pb-5 position-relative">
       <Container className="pb-lg-5 pb-4">
         <div className=" d-flex align-items-center justify-content-between py-xl-5 pb-md-5 pb-3">
-          <p className=" ff_heavy fw_900 fs_xl text-uppercase mb-0">
+          <p
+            className=" ff_heavy fw_900 fs_xl text-uppercase mb-0"
+            data-aos="fade-up-right"
+          >
             Our Portfolios
           </p>
           <div className=" d-sm-flex d-none align-items-center">
-            <span>
+            <span data-aos="flip-left">
               <svg
                 width="54"
                 onClick={() => buttons.current.slickPrev()}
@@ -119,7 +122,7 @@ export const Portfolios = () => {
                 </defs>
               </svg>
             </span>
-            <span className="ms-3">
+            <span className="ms-3" data-aos="flip-left">
               <svg
                 width="54"
                 onClick={() => buttons.current.slickNext()}
@@ -158,22 +161,46 @@ export const Portfolios = () => {
           </div>
         </div>
         <Slider {...our_slider} ref={buttons} className="portfolios">
-          <div className="px-3">
+          <div
+            className="px-3"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
             <span>
               <img src={slider_1} alt="slider_1" className="w-100" />
             </span>
           </div>
-          <div className="px-3">
+          <div
+            className="px-3"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <span>
               <img src={slider_2} alt="slider_1" className="w-100" />
             </span>
           </div>
-          <div className="px-3">
+          <div
+            className="px-3"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
             <span>
               <img src={slider_3} alt="slider_1" className="w-100" />
             </span>
           </div>
-          <div className="px-3">
+          <div
+            className="px-3"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
             <span>
               <img src={slider_4} alt="slider_1" className="w-100" />
             </span>

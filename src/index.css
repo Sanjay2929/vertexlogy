@@ -305,7 +305,7 @@ body {
     right: 0;
   }
   .icon_hover:hover {
-    transform: translatey(40%);
+    transform: translateY(40%);
   }
   .padding_footer_cus {
     padding-bottom: 70px;
